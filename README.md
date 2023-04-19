@@ -41,4 +41,5 @@ SELECT name, rating FROM programming_language ORDER BY rating DESC
 - This method is responsible for making the connection, using the URL, username and password.
 #### CLOSEDATABASECONNECTION
 - This method allows us to close the connection pool when it is no longer necessary with the HIKARI close() method.
-
+### CONCLUSION
+We find it very interesting that the connection pool allows you to reuse the connections to save resources, to allow several simultaneous connections to the database without waiting, etc.
